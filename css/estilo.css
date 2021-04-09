@@ -126,6 +126,15 @@ h2{
 	color: #FFF;
 }
 
+h3{
+	text-transform: uppercase;
+	display: inline;
+	font-size: 0.8em;
+	padding: 3px;
+	background: #b10333;
+	color: #FFF;
+}
+
 .caixa{
 	margin: 10px 0;
 	padding: 5px;
@@ -188,6 +197,52 @@ input.submit{
 	background-color: #de003e;
 	border-radius: 5px;
 	border: 2px solid #870529;
+	cursor: pointer;
+}
+
+/*
+** FORMATAÇÃO DE IMAGENS **
+*/
+
+img.imagem-principal{
+	width: 98%;
+	border: 3px solid #dfdfdf;
+}
+
+/*
+** FORMATAÇÃO DA LISTA DE NOTÍCIAS **
+*/
+
+#lista-noticias li{
+	padding: 2px;
+	border-bottom: 1px solid #ccc;
+	height: 62px;
+}
+
+#lista-noticias li a img{
+	float: left;
+	margin: 5px;
+}
+
+#lista-noticias li a{
+	text-decoration: none;
+	font-weight: bold;
+	color: #000;
+}
+
+h4{
+	margin: 3px 0;
+	text-transform: uppercase;
+	font-size: 0.8em;
+	color: #3e7ab9;
+}
+
+#lista-noticias li a p{
+	font-size: 0.7em;
+}
+
+#lista-noticias li:hover{
+	background: #eee;
 	cursor: pointer;
 }
 
