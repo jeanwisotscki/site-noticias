@@ -17,7 +17,7 @@ body{
 	margin: 0 auto;
 }
 
-#cabecalho{
+#topo{
 	height: 150px;
 	background: url(../imagens/detalhe-topo.png) no-repeat right top;
 	padding-top: 25px;
@@ -30,6 +30,15 @@ body{
 	text-indent: -3000px;
 }
 
+.leia{
+	font-size: 0.8em;
+	text-decoration: none;
+	background-color: #de003e;
+	color: #FFF;
+	border-radius: 5px;
+	padding: 3px;
+}
+
 /*
 ** BARRA DE NAVEGAÇÃO HORIZONTAL **
 */
@@ -40,17 +49,17 @@ ul{
 	list-style: none;
 }
 
-#cabecalho ul{
+#topo ul{
 	margin-top: 30px;
 	background: #b10333;
 	float: left;
 }
 
-#cabecalho ul li{
+#topo ul li{
 	float: left;
 }
 
-#cabecalho ul a{
+#topo ul a{
 	font-size: 0.9em;
 	display: block;
 	padding: 0.5em 1.5em;
@@ -60,11 +69,11 @@ ul{
 	background: url(../imagens/divisor.png) no-repeat left center;
 }
 
-#cabecalho ul .primeiro a{
+#topo ul .primeiro a{
 	background: none;
 }
 
-#cabecalho ul a:hover{
+#topo ul a:hover{
 	color: #69001d;
 }
 
@@ -88,7 +97,7 @@ body.fotos #nav-horizontal a#fotos{
 	background: #f5f5f5;
 }
 
-#nav-lateral{
+#lateral{
 	width: 180px;
 	margin: 0 0 20px -750px;
 	float: left;
@@ -126,15 +135,6 @@ h2{
 	color: #FFF;
 }
 
-h3{
-	text-transform: uppercase;
-	display: inline;
-	font-size: 0.8em;
-	padding: 3px;
-	background: #b10333;
-	color: #FFF;
-}
-
 .caixa{
 	margin: 10px 0;
 	padding: 5px;
@@ -151,7 +151,7 @@ h3{
 ** FORMATAÇÃO DO MENU LATERAL **
 */
 
-#nav-lateral ul a{
+#lateral ul a{
 	font-size: 0.9em;
 	padding: 3px;
 	display: block;
@@ -162,7 +162,7 @@ h3{
 	border-bottom: 1px solid #f3f3f3;
 }
 
-#nav-lateral ul a:hover{
+#lateral ul a:hover{
 	background: #f9f9f9 url(../imagens/marcador.png) no-repeat left center;
 	padding-left: 20px;
 	color: #a1a1a1;
@@ -210,6 +210,22 @@ img.imagem-principal{
 }
 
 /*
+** FORMATAÇÃO DOS CABEÇALHOS **
+*/
+
+h3{
+	text-transform: uppercase;
+	display: inline;
+	font-size: 0.8em;
+	padding: 3px;
+}
+
+.destaque h3{
+	background: #b10333;
+	color: #fff;
+}
+
+/*
 ** FORMATAÇÃO DA LISTA DE NOTÍCIAS **
 */
 
@@ -230,11 +246,10 @@ img.imagem-principal{
 	color: #000;
 }
 
-h4{
-	margin: 3px 0;
-	text-transform: uppercase;
+#lista-noticias li a h3{
 	font-size: 0.8em;
-	color: #3e7ab9;
+	padding: 0;
+	color: #3e7ab9; 
 }
 
 #lista-noticias li a p{

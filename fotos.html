@@ -4,56 +4,122 @@
 
 	<head>
 
-		<title>Notícas Cidade - Seu site de notícias</title>
+		<title>Notícias Cidade - Fotos</title>
 
 		<meta charset="utf-8">
-
 		<link rel="stylesheet" type="text/css" href="css/estilo.css">
 
 	</head>
 
-	<body class="fotos">
+	<body id="uma-coluna" class="fotos">
 
 		<div id="container"> <!-- INICIO DO CONTAINER -->
-			
-			<div id="cabecalho"> <!-- INICIO DO CABEÇALHO -->
+
+			<div id="topo"> <!-- INICIO DO TOPO -->
 
 				<h1 class="logo">Notícias Cidade</h1>
 
 				<ul id="nav-horizontal">
-
-					<li class="primeiro">						
-						<a id="home" href="index.html">Home</a>
-					</li>
-					<li>
-						<a id="brasil" href="brasil.html">Brasil</a>
-					</li>
-					<li>
-						<a id="internacional" href="internacional.html">Internacional</a>
-					</li>
-					<li>
-						<a id="economia" href="economia.html">Economia</a>
-					</li>
-					<li>
-						<a id="saude" href="saude.html">Saúde</a>
-					</li>
-					<li>
-						<a id="ciencia" href="ciencia.html">Ciência</a>
-					</li>
-					<li>
-						<a id="fotos" href="fotos.html">Fotos</a>
-					</li>
-					
+					<li class="primeiro"><a id="home" href="index.html">Home</a></li>
+					<li><a id="brasil" href="brasil.html">Brasil</a></li>
+					<li><a id="internacional" href="internacional.html">Internacional</a></li>
+					<li><a id="economia" href="economia.html">Economia</a></li>
+					<li><a id="saude" href="saude.html">Saúde</a></li>
+					<li><a id="ciencia" href="ciencia.html">Ciência</a></li>
+					<li><a id="fotos" href="fotos.html">Fotos</a></li>
 				</ul>
 
-			</div> <!-- FIM DO CABEÇALHO -->
+			</div> <!-- FIM DO TOPO -->
+
+			<div id="conteudo"> <!-- INICIO DO CONTEÚDO -->
+				
+				<div id="primario"> <!-- INICIO PRIMARIO -->
+					
+					<div class="caixa destaque">
+
+						<h2>Fotos da semana</h2>
+
+						<div class="caixa-conteudo">
+
+							<h3>destaques</h3>
+							<img class="imagem-principal" src="imagens/tecnologia.jpg" width="100%">
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. 
+							</p>
+							<a class="leia" href="">Leia mais</a>
+
+						</div>
+
+					</div>
+
+	                <div class="caixa">
+
+	                    <h2>Novidades</h2>
+
+	                    <div class="caixa-conteudo">
+
+	                        <ul id="lista-noticias">
+
+		                        <li>
+		                            <a href="">
+		                                <img src="imagens/tecnologia.jpg" width="80">
+			                            <h3>avanço tecnológico</h3>
+			                            <p>
+			                            	Lorem ipsum dolor sit amet, consectetur...
+			                            </p>
+		                            </a>
+		                        </li>
+
+		                        <li>
+		                            <a href="">
+		                                <img src="imagens/tecnologia.jpg" width="80">
+			                            <h3>avanço tecnológico</h3>
+			                            <p>
+			                            	Lorem ipsum dolor sit amet, consectetur...
+			                            </p>
+		                            </a>
+		                        </li>
+
+		                        <li>
+		                            <a href="">
+		                                <img src="imagens/tecnologia.jpg" width="80">
+			                            <h3>avanço tecnológico</h3>
+			                            <p>
+			                            	Lorem ipsum dolor sit amet, consectetur...
+			                            </p>
+		                            </a>
+		                        </li>
+
+		                        <li>
+		                            <a href="">
+		                                <img src="imagens/tecnologia.jpg" width="80">
+			                            <h3>avanço tecnológico</h3>
+			                            <p>
+			                            	Lorem ipsum dolor sit amet, consectetur...
+			                            </p>
+		                            </a>
+		                        </li>		                        
+
+		                    </ul>
+
+	                    </div>
+
+	                </div>
+
+				</div> <!-- FIM PRIMARIO -->
+
+			</div> <!-- FIM DO CONTEÚDO -->
 
 		</div> <!-- FIM DO CONTAINER -->
 
-		<div id="container-rodape" style="clear: both;"> <!-- INICIO DO RODAPÉ -->
+        <!-- INICIO DO RODAPÉ -->
+		<div id="container-rodape" style="clear: both;">
+
 			<div id="rodape">
 				&copy; <em>Copyright 2000-2021 </em><strong>Notícias Cidade</strong><br> por Jean Wisotscki
 			</div>
+         
 		</div> <!-- FIM DO RODAPÉ -->
 
 	</body>
